@@ -9,9 +9,9 @@
 
 <h1 align="center">ResilientMQ</h1>
 
-<p align="center"><strong>Procesamiento fiable de eventos para RabbitMQ</strong></p>
-
 <p align="center"><sub>Parte de · <a href="https://github.com/didactika"><strong>Didactika</strong></a></sub></p>
+
+<p align="center"><strong>Procesamiento fiable de eventos para RabbitMQ</strong></p>
 
 <p align="center">
   <a href="https://github.com/resilientmq">GitHub</a> ·
@@ -90,15 +90,15 @@ Políticas de contribución y seguridad de la organización:
 <sub><a href="https://github.com/resilientmq/.github/blob/main/CONTRIBUTING.md">Guía de contribución</a> · <a href="https://github.com/resilientmq/.github/blob/main/SECURITY.md">Política de seguridad</a> · <a href="https://github.com/resilientmq/.github/blob/main/CODE_OF_CONDUCT.md">Código de conducta</a></sub>
 
 
-## Fundador
+## Mantenedor
 
-ResilientMQ está diseñado y mantenido por Hector Arrechea como una línea de trabajo aplicada sobre arquitecturas fiables dirigidas por eventos.
+ResilientMQ está mantenido por Hector Arrechea dentro de Didactika como una línea de trabajo aplicada sobre arquitecturas fiables dirigidas por eventos.
 
 <table>
 <tr>
 <td width="100%" valign="top">
 <b><a href="https://www.linkedin.com/in/hector-arrechea/">Hector Arrechea</a></b> · <a href="https://github.com/hector-ae21"><code>@hector-ae21</code></a><br>
-<sub><b>Fundador</b> · <a href="https://github.com/resilientmq">ResilientMQ</a><br><b>Cofundador</b> · <a href="https://github.com/didactika">Didactika</a></sub>
+<sub><b>Mantenedor</b> · <a href="https://github.com/resilientmq">ResilientMQ</a><br><b>Cofundador</b> · <a href="https://github.com/didactika">Didactika</a></sub>
 <p><sub>Ingeniero informático y especialista en ciberseguridad centrado en sistemas distribuidos resilientes, mensajería, idempotencia y calidad de arquitecturas dirigidas por eventos.</sub></p>
 </td>
 </tr>

@@ -4,22 +4,25 @@
   "org": {
     "login": "resilientmq",
     "name": "ResilientMQ",
-    "relationships": [
-      {
-        "label": { "en": "Part of", "es": "Parte de" },
-        "name": "Didactika",
-        "url": "https://github.com/didactika"
-      }
-    ],
+    "parent": {
+      "label": { "en": "Part of", "es": "Parte de" },
+      "name": "Didactika",
+      "url": "https://github.com/didactika"
+    },
     "tagline": {
       "en": "Reliable event processing for RabbitMQ",
       "es": "Procesamiento fiable de eventos para RabbitMQ"
     }
   },
 
+  "theme": {
+    "light": { "brand": "#CC4D00" },
+    "dark": { "brand": "#FF7021" }
+  },
+
   "sections": {
+    "parent": { "enabled": true },
     "about": { "enabled": true },
-    "relationships": { "enabled": true },
     "projects": { "enabled": true, "showPending": false },
     "metrics": { "enabled": true },
     "contributors": { "enabled": true },
@@ -110,11 +113,11 @@
     },
 
     "founders": {
-      "heading": { "en": "Founder", "es": "Fundador" },
-      "role": { "en": "Founder and maintainer", "es": "Fundador y mantenedor" },
+      "heading": { "en": "Maintainer", "es": "Mantenedor" },
+      "role": { "en": "Maintainer", "es": "Mantenedor" },
       "intro": {
-        "en": "ResilientMQ is designed and maintained by Hector Arrechea as an applied line of work on reliable event-driven architectures.",
-        "es": "ResilientMQ está diseñado y mantenido por Hector Arrechea como una línea de trabajo aplicada sobre arquitecturas fiables dirigidas por eventos."
+        "en": "ResilientMQ is maintained by Hector Arrechea within Didactika as an applied line of work on reliable event-driven architectures.",
+        "es": "ResilientMQ está mantenido por Hector Arrechea dentro de Didactika como una línea de trabajo aplicada sobre arquitecturas fiables dirigidas por eventos."
       }
     },
 
@@ -167,7 +170,7 @@
       "linkedin": "https://www.linkedin.com/in/hector-arrechea/",
       "roles": [
         {
-          "label": { "en": "Founder", "es": "Fundador" },
+          "label": { "en": "Maintainer", "es": "Mantenedor" },
           "name": "ResilientMQ",
           "url": "https://github.com/resilientmq"
         },
