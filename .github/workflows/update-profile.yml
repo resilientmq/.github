@@ -27,7 +27,7 @@ jobs:
       - name: Check out the shared profile generator
         uses: actions/checkout@v4
         with:
-          repository: didactika/profile-generator
+          repository: resilientmq/profile-generator
           path: profile-generator
 
       - uses: actions/setup-node@v4
@@ -37,6 +37,7 @@ jobs:
       - name: Generate profile
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PROFILE_GENERATOR_URL: https://github.com/resilientmq/profile-generator/blob/main/generate-profile.mjs
         run: node profile-generator/generate-profile.mjs
 
       - name: Commit if anything changed
