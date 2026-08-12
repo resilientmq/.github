@@ -4,15 +4,27 @@
   "org": {
     "login": "resilientmq",
     "name": "ResilientMQ",
-    "parent": {
-      "name": "Didactika",
-      "url": "https://github.com/didactika",
-      "label": { "en": "Part of", "es": "Parte de" }
-    },
+    "relationships": [
+      {
+        "label": { "en": "Part of", "es": "Parte de" },
+        "name": "Didactika",
+        "url": "https://github.com/didactika"
+      }
+    ],
     "tagline": {
       "en": "Reliable event processing for RabbitMQ",
       "es": "Procesamiento fiable de eventos para RabbitMQ"
     }
+  },
+
+  "sections": {
+    "about": { "enabled": true },
+    "relationships": { "enabled": true },
+    "projects": { "enabled": true, "showPending": false },
+    "metrics": { "enabled": true },
+    "contributors": { "enabled": true },
+    "contributing": { "enabled": true },
+    "founders": { "enabled": true }
   },
 
   "copy": {
@@ -21,13 +33,11 @@
       "body": {
         "en": [
           "ResilientMQ is an open source toolkit for building **fault-tolerant, event-driven Node.js services** on RabbitMQ.",
-          "It keeps retry policy, dead-letter routing, idempotency and event lifecycle state out of business handlers, while allowing applications to choose how that state is persisted.",
-          "ResilientMQ is developed as part of [Didactika](https://github.com/didactika), where reliable messaging supports broader educational and integration platforms."
+          "It keeps retry policy, dead-letter routing, idempotency and event lifecycle state out of business handlers, while allowing applications to choose how that state is persisted."
         ],
         "es": [
           "ResilientMQ es un conjunto de herramientas open source para construir **servicios Node.js tolerantes a fallos y dirigidos por eventos** sobre RabbitMQ.",
-          "Mantiene las políticas de reintento, el enrutamiento a dead-letter, la idempotencia y el estado del ciclo de vida fuera de los handlers de negocio, permitiendo que cada aplicación elija cómo persistir ese estado.",
-          "ResilientMQ se desarrolla como parte de [Didactika](https://github.com/didactika), donde la mensajería fiable sostiene plataformas educativas y de integración más amplias."
+          "Mantiene las políticas de reintento, el enrutamiento a dead-letter, la idempotencia y el estado del ciclo de vida fuera de los handlers de negocio, permitiendo que cada aplicación elija cómo persistir ese estado."
         ]
       },
       "quote": {
@@ -78,7 +88,25 @@
           "Añade cobertura unitaria o de integración para el comportamiento que cambie.",
           "Ejecuta los comandos de build, pruebas y calidad del repositorio antes de abrir el pull request."
         ]
-      }
+      },
+      "docsIntro": {
+        "en": "Organization-wide contributor and security policies:",
+        "es": "Políticas de contribución y seguridad de la organización:"
+      },
+      "docs": [
+        {
+          "url": "https://github.com/resilientmq/.github/blob/main/CONTRIBUTING.md",
+          "label": { "en": "Contributing guide", "es": "Guía de contribución" }
+        },
+        {
+          "url": "https://github.com/resilientmq/.github/blob/main/SECURITY.md",
+          "label": { "en": "Security policy", "es": "Política de seguridad" }
+        },
+        {
+          "url": "https://github.com/resilientmq/.github/blob/main/CODE_OF_CONDUCT.md",
+          "label": { "en": "Code of conduct", "es": "Código de conducta" }
+        }
+      ]
     },
 
     "founders": {
@@ -99,19 +127,12 @@
   "groups": [
     {
       "id": "npm",
+      "enabled": true,
       "projectTypes": ["npm-package"],
       "label": { "en": "Runtime packages", "es": "Paquetes de ejecución" },
       "blurb": {
         "en": "The messaging engine and storage integrations published on npm.",
         "es": "El motor de mensajería y sus integraciones de persistencia publicadas en npm."
-      }
-    },
-    {
-      "id": "types",
-      "label": { "en": "Type definitions", "es": "Definiciones de tipos" },
-      "blurb": {
-        "en": "Declaration-only contracts for applications that consume the ResilientMQ APIs.",
-        "es": "Contratos de solo declaraciones para aplicaciones que consumen las APIs de ResilientMQ."
       }
     }
   ],
@@ -136,24 +157,6 @@
         "en": "MongoDB-backed persistence through Mongoose, with event state tracking, serializer support and a shared connection lifecycle.",
         "es": "Persistencia en MongoDB mediante Mongoose, con seguimiento del estado de eventos, serializadores y un ciclo de vida de conexión compartido."
       }
-    },
-    {
-      "repo": "types__core",
-      "group": "types",
-      "name": "@resilientmq/types__core",
-      "desc": {
-        "en": "Declaration-only TypeScript contracts for event messages, stores, queues, consumers and publishers in the core runtime.",
-        "es": "Contratos TypeScript de solo declaraciones para eventos, almacenes, colas, consumidores y publicadores del runtime principal."
-      }
-    },
-    {
-      "repo": "types__mongoose-connector",
-      "group": "types",
-      "name": "@resilientmq/types__mongoose-connector",
-      "desc": {
-        "en": "Type definitions for custom MongoDB event schemas, serializers and Mongoose-backed storage contracts.",
-        "es": "Definiciones de tipos para esquemas de eventos MongoDB personalizados, serializadores y contratos de persistencia sobre Mongoose."
-      }
     }
   ],
 
@@ -162,6 +165,18 @@
       "name": "Hector Arrechea",
       "github": "hector-ae21",
       "linkedin": "https://www.linkedin.com/in/hector-arrechea/",
+      "roles": [
+        {
+          "label": { "en": "Founder", "es": "Fundador" },
+          "name": "ResilientMQ",
+          "url": "https://github.com/resilientmq"
+        },
+        {
+          "label": { "en": "Co-Founder", "es": "Cofundador" },
+          "name": "Didactika",
+          "url": "https://github.com/didactika"
+        }
+      ],
       "bio": {
         "en": "Computer engineer and cybersecurity specialist focused on resilient distributed systems, messaging, idempotency and the quality of event-driven architectures.",
         "es": "Ingeniero informático y especialista en ciberseguridad centrado en sistemas distribuidos resilientes, mensajería, idempotencia y calidad de arquitecturas dirigidas por eventos."
