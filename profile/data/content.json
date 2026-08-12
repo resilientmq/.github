@@ -27,7 +27,7 @@
     "metrics": { "enabled": true },
     "contributors": { "enabled": true },
     "contributing": { "enabled": true },
-    "founders": { "enabled": true }
+    "founders": { "enabled": false }
   },
 
   "copy": {
@@ -112,15 +112,6 @@
       ]
     },
 
-    "founders": {
-      "heading": { "en": "Maintainer", "es": "Mantenedor" },
-      "role": { "en": "Maintainer", "es": "Mantenedor" },
-      "intro": {
-        "en": "ResilientMQ is maintained by Hector Arrechea within Didactika as an applied line of work on reliable event-driven architectures.",
-        "es": "ResilientMQ está mantenido por Hector Arrechea dentro de Didactika como una línea de trabajo aplicada sobre arquitecturas fiables dirigidas por eventos."
-      }
-    },
-
     "footer": {
       "en": "Reliable messaging, explicit failure handling",
       "es": "Mensajería fiable, gestión explícita de fallos"
@@ -159,30 +150,6 @@
       "desc": {
         "en": "MongoDB-backed persistence through Mongoose, with event state tracking, serializer support and a shared connection lifecycle.",
         "es": "Persistencia en MongoDB mediante Mongoose, con seguimiento del estado de eventos, serializadores y un ciclo de vida de conexión compartido."
-      }
-    }
-  ],
-
-  "founders": [
-    {
-      "name": "Hector Arrechea",
-      "github": "hector-ae21",
-      "linkedin": "https://www.linkedin.com/in/hector-arrechea/",
-      "roles": [
-        {
-          "label": { "en": "Maintainer", "es": "Mantenedor" },
-          "name": "ResilientMQ",
-          "url": "https://github.com/resilientmq"
-        },
-        {
-          "label": { "en": "Co-Founder", "es": "Cofundador" },
-          "name": "Didactika",
-          "url": "https://github.com/didactika"
-        }
-      ],
-      "bio": {
-        "en": "Computer engineer and cybersecurity specialist focused on resilient distributed systems, messaging, idempotency and the quality of event-driven architectures.",
-        "es": "Ingeniero informático y especialista en ciberseguridad centrado en sistemas distribuidos resilientes, mensajería, idempotencia y calidad de arquitecturas dirigidas por eventos."
       }
     }
   ]
