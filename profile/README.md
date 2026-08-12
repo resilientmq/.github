@@ -7,9 +7,7 @@
 
 <a href="https://github.com/resilientmq"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/resilientmq/.github/main/profile/assets/tab-en-on-dark.svg"><img alt="EN" src="https://raw.githubusercontent.com/resilientmq/.github/main/profile/assets/tab-en-on-light.svg" height="32"></picture></a><a href="https://github.com/resilientmq/.github/blob/main/profile/README.es.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/resilientmq/.github/main/profile/assets/tab-es-off-dark.svg"><img alt="ES" src="https://raw.githubusercontent.com/resilientmq/.github/main/profile/assets/tab-es-off-light.svg" height="32"></picture></a>
 
-<h1 align="center">ResilientMQ</h1>
-
-<p align="center"><sub>Part of · <a href="https://github.com/didactika"><strong>Didactika</strong></a></sub></p>
+<h1 align="center">ResilientMQ<br><sub>Part of · <a href="https://github.com/didactika">Didactika</a></sub></h1>
 
 <p align="center"><strong>Reliable event processing for RabbitMQ</strong></p>
 
@@ -89,20 +87,6 @@ Organization-wide contributor and security policies:
 
 <sub><a href="https://github.com/resilientmq/.github/blob/main/CONTRIBUTING.md">Contributing guide</a> · <a href="https://github.com/resilientmq/.github/blob/main/SECURITY.md">Security policy</a> · <a href="https://github.com/resilientmq/.github/blob/main/CODE_OF_CONDUCT.md">Code of conduct</a></sub>
 
-
-## Maintainer
-
-ResilientMQ is maintained by Hector Arrechea within Didactika as an applied line of work on reliable event-driven architectures.
-
-<table>
-<tr>
-<td width="100%" valign="top">
-<b><a href="https://www.linkedin.com/in/hector-arrechea/">Hector Arrechea</a></b> · <a href="https://github.com/hector-ae21"><code>@hector-ae21</code></a><br>
-<sub><b>Maintainer</b> · <a href="https://github.com/resilientmq">ResilientMQ</a><br><b>Co-Founder</b> · <a href="https://github.com/didactika">Didactika</a></sub>
-<p><sub>Computer engineer and cybersecurity specialist focused on resilient distributed systems, messaging, idempotency and the quality of event-driven architectures.</sub></p>
-</td>
-</tr>
-</table>
 
 ---
 
