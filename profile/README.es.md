@@ -11,12 +11,7 @@
 
 <p align="center"><strong>Procesamiento fiable de eventos para RabbitMQ</strong></p>
 
-<table>
-<tr><td width="100%" align="center">
-<sub>Parte de</sub><br>
-<strong><a href="https://github.com/didactika">Didactika</a></strong>
-</td></tr>
-</table>
+<p align="center"><sub>Parte de · <a href="https://github.com/didactika"><strong>Didactika</strong></a></sub></p>
 
 <p align="center">
   <a href="https://github.com/resilientmq">GitHub</a> ·
@@ -39,12 +34,14 @@ Mantiene las políticas de reintento, el enrutamiento a dead-letter, la idempote
 ## Proyectos
 
 <table>
-<tr><td width="100%" valign="top" align="center">
+<tr>
+<td width="100%" valign="top" align="center">
 <h3><a href="https://github.com/resilientmq/.github/blob/main/profile/projects/npm.es.md">Paquetes de ejecución</a></h3>
 <p><sub>El motor de mensajería y sus integraciones de persistencia publicadas en npm.</sub></p>
 <p><sub><b>2</b> publicados</sub></p>
 <p><a href="https://github.com/resilientmq/.github/blob/main/profile/projects/npm.es.md"><b>Ver todos →</b></a></p>
-</td></tr>
+</td>
+</tr>
 </table>
 
 ## En cifras

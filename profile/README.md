@@ -11,12 +11,7 @@
 
 <p align="center"><strong>Reliable event processing for RabbitMQ</strong></p>
 
-<table>
-<tr><td width="100%" align="center">
-<sub>Part of</sub><br>
-<strong><a href="https://github.com/didactika">Didactika</a></strong>
-</td></tr>
-</table>
+<p align="center"><sub>Part of · <a href="https://github.com/didactika"><strong>Didactika</strong></a></sub></p>
 
 <p align="center">
   <a href="https://github.com/resilientmq">GitHub</a> ·
@@ -39,12 +34,14 @@ It keeps retry policy, dead-letter routing, idempotency and event lifecycle stat
 ## Projects
 
 <table>
-<tr><td width="100%" valign="top" align="center">
+<tr>
+<td width="100%" valign="top" align="center">
 <h3><a href="https://github.com/resilientmq/.github/blob/main/profile/projects/npm.md">Runtime packages</a></h3>
 <p><sub>The messaging engine and storage integrations published on npm.</sub></p>
 <p><sub><b>2</b> published</sub></p>
 <p><a href="https://github.com/resilientmq/.github/blob/main/profile/projects/npm.md"><b>Browse →</b></a></p>
-</td></tr>
+</td>
+</tr>
 </table>
 
 ## By the numbers
