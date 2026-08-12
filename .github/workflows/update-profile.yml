@@ -1,0 +1,52 @@
+name: Update organization profile
+
+on:
+  schedule:
+    - cron: "31 */8 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "profile/data/content.json"
+      - ".github/workflows/update-profile.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-profile
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out this repository
+        uses: actions/checkout@v4
+
+      - name: Check out the shared profile generator
+        uses: actions/checkout@v4
+        with:
+          repository: didactika/profile-generator
+          path: profile-generator
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Generate profile
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node profile-generator/generate-profile.mjs
+
+      - name: Commit if anything changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- profile; then
+            echo "Profile already up to date."
+            exit 0
+          fi
+          git add profile
+          git commit -m "chore(profile): refresh stats [skip ci]"
+          git push

@@ -1,0 +1,170 @@
+{
+  "$comment": "Single source of truth for the ResilientMQ organization profile. profile-generator renders every README, project page and SVG from this file plus live GitHub data.",
+
+  "org": {
+    "login": "resilientmq",
+    "name": "ResilientMQ",
+    "parent": {
+      "name": "Didactika",
+      "url": "https://github.com/didactika",
+      "label": { "en": "Part of", "es": "Parte de" }
+    },
+    "tagline": {
+      "en": "Reliable event processing for RabbitMQ",
+      "es": "Procesamiento fiable de eventos para RabbitMQ"
+    }
+  },
+
+  "copy": {
+    "about": {
+      "heading": { "en": "What we build", "es": "Qué construimos" },
+      "body": {
+        "en": [
+          "ResilientMQ is an open source toolkit for building **fault-tolerant, event-driven Node.js services** on RabbitMQ.",
+          "It keeps retry policy, dead-letter routing, idempotency and event lifecycle state out of business handlers, while allowing applications to choose how that state is persisted.",
+          "ResilientMQ is developed as part of [Didactika](https://github.com/didactika), where reliable messaging supports broader educational and integration platforms."
+        ],
+        "es": [
+          "ResilientMQ es un conjunto de herramientas open source para construir **servicios Node.js tolerantes a fallos y dirigidos por eventos** sobre RabbitMQ.",
+          "Mantiene las políticas de reintento, el enrutamiento a dead-letter, la idempotencia y el estado del ciclo de vida fuera de los handlers de negocio, permitiendo que cada aplicación elija cómo persistir ese estado.",
+          "ResilientMQ se desarrolla como parte de [Didactika](https://github.com/didactika), donde la mensajería fiable sostiene plataformas educativas y de integración más amplias."
+        ]
+      },
+      "quote": {
+        "en": "A redelivered event should be a normal case, not an incident.",
+        "es": "Un evento reentregado debe ser un caso normal, no un incidente."
+      }
+    },
+
+    "metrics": {
+      "heading": { "en": "By the numbers", "es": "En cifras" },
+      "languages": { "en": "Code by language", "es": "Código por lenguaje" },
+      "licenses": { "en": "Repositories by license", "es": "Repositorios por licencia" },
+      "weekday": { "en": "Commits by day of week", "es": "Commits por día de la semana" },
+      "perRepo": { "en": "Commits by repository", "es": "Commits por repositorio" },
+      "activity": { "en": "Weekly commits, last 52 weeks", "es": "Commits semanales, últimas 52 semanas" }
+    },
+
+    "projects": {
+      "heading": { "en": "Projects", "es": "Proyectos" },
+      "viewAll": { "en": "Browse", "es": "Ver todos" },
+      "count": { "en": "published", "es": "publicados" },
+      "soonHeading": { "en": "In development", "es": "En desarrollo" },
+      "soonNote": {
+        "en": "Planned projects that are not public yet.",
+        "es": "Proyectos planificados que aún no son públicos."
+      },
+      "back": { "en": "Back to the ResilientMQ profile", "es": "Volver al perfil de ResilientMQ" }
+    },
+
+    "contributors": {
+      "heading": { "en": "Contributors", "es": "Colaboradores" }
+    },
+
+    "contributing": {
+      "heading": { "en": "Contributing", "es": "Cómo contribuir" },
+      "steps": {
+        "en": [
+          "Open an issue describing the bug, use case or proposed improvement.",
+          "Fork the repository and create a branch named `type/short-description` from its default branch.",
+          "Use [Conventional Commits](https://www.conventionalcommits.org) and explain the reason for the change in the commit body.",
+          "Add unit or integration coverage for behavior that changes.",
+          "Run the repository's build, test and quality commands before opening the pull request."
+        ],
+        "es": [
+          "Abre un issue que describa el fallo, el caso de uso o la mejora propuesta.",
+          "Haz fork del repositorio y crea una rama `tipo/descripcion-corta` desde su rama por defecto.",
+          "Usa [Conventional Commits](https://www.conventionalcommits.org) y explica el motivo del cambio en el cuerpo del commit.",
+          "Añade cobertura unitaria o de integración para el comportamiento que cambie.",
+          "Ejecuta los comandos de build, pruebas y calidad del repositorio antes de abrir el pull request."
+        ]
+      }
+    },
+
+    "founders": {
+      "heading": { "en": "Founder", "es": "Fundador" },
+      "role": { "en": "Founder and maintainer", "es": "Fundador y mantenedor" },
+      "intro": {
+        "en": "ResilientMQ is designed and maintained by Hector Arrechea as an applied line of work on reliable event-driven architectures.",
+        "es": "ResilientMQ está diseñado y mantenido por Hector Arrechea como una línea de trabajo aplicada sobre arquitecturas fiables dirigidas por eventos."
+      }
+    },
+
+    "footer": {
+      "en": "Reliable messaging, explicit failure handling",
+      "es": "Mensajería fiable, gestión explícita de fallos"
+    }
+  },
+
+  "groups": [
+    {
+      "id": "npm",
+      "label": { "en": "Runtime packages", "es": "Paquetes de ejecución" },
+      "blurb": {
+        "en": "The messaging engine and storage integrations published on npm.",
+        "es": "El motor de mensajería y sus integraciones de persistencia publicadas en npm."
+      }
+    },
+    {
+      "id": "types",
+      "label": { "en": "Type definitions", "es": "Definiciones de tipos" },
+      "blurb": {
+        "en": "Declaration-only contracts for applications that consume the ResilientMQ APIs.",
+        "es": "Contratos de solo declaraciones para aplicaciones que consumen las APIs de ResilientMQ."
+      }
+    }
+  ],
+
+  "projects": [
+    {
+      "repo": "core",
+      "group": "npm",
+      "name": "@resilientmq/core",
+      "npm": "@resilientmq/core",
+      "desc": {
+        "en": "Core RabbitMQ event-processing engine with middleware, retry policies, dead-letter handling, idempotent lifecycle state and controlled ignored-event outcomes.",
+        "es": "Motor principal de procesamiento de eventos RabbitMQ con middleware, políticas de reintento, dead-letter, estado de ciclo de vida idempotente y resultados controlados para eventos ignorados."
+      }
+    },
+    {
+      "repo": "mongoose-connector",
+      "group": "npm",
+      "name": "@resilientmq/mongoose-connector",
+      "npm": "@resilientmq/mongoose-connector",
+      "desc": {
+        "en": "MongoDB-backed persistence through Mongoose, with event state tracking, serializer support and a shared connection lifecycle.",
+        "es": "Persistencia en MongoDB mediante Mongoose, con seguimiento del estado de eventos, serializadores y un ciclo de vida de conexión compartido."
+      }
+    },
+    {
+      "repo": "types__core",
+      "group": "types",
+      "name": "@resilientmq/types__core",
+      "desc": {
+        "en": "Declaration-only TypeScript contracts for event messages, stores, queues, consumers and publishers in the core runtime.",
+        "es": "Contratos TypeScript de solo declaraciones para eventos, almacenes, colas, consumidores y publicadores del runtime principal."
+      }
+    },
+    {
+      "repo": "types__mongoose-connector",
+      "group": "types",
+      "name": "@resilientmq/types__mongoose-connector",
+      "desc": {
+        "en": "Type definitions for custom MongoDB event schemas, serializers and Mongoose-backed storage contracts.",
+        "es": "Definiciones de tipos para esquemas de eventos MongoDB personalizados, serializadores y contratos de persistencia sobre Mongoose."
+      }
+    }
+  ],
+
+  "founders": [
+    {
+      "name": "Hector Arrechea",
+      "github": "hector-ae21",
+      "linkedin": "https://www.linkedin.com/in/hector-arrechea/",
+      "bio": {
+        "en": "Computer engineer and cybersecurity specialist focused on resilient distributed systems, messaging, idempotency and the quality of event-driven architectures.",
+        "es": "Ingeniero informático y especialista en ciberseguridad centrado en sistemas distribuidos resilientes, mensajería, idempotencia y calidad de arquitecturas dirigidas por eventos."
+      }
+    }
+  ]
+}
