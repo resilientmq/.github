@@ -7,7 +7,7 @@
 
 <a href="https://github.com/resilientmq"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/resilientmq/.github/main/profile/assets/tab-en-off-dark.svg"><img alt="EN" src="https://raw.githubusercontent.com/resilientmq/.github/main/profile/assets/tab-en-off-light.svg" height="32"></picture></a><a href="https://github.com/resilientmq/.github/blob/main/profile/README.es.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/resilientmq/.github/main/profile/assets/tab-es-on-dark.svg"><img alt="ES" src="https://raw.githubusercontent.com/resilientmq/.github/main/profile/assets/tab-es-on-light.svg" height="32"></picture></a>
 
-<h1 align="center">ResilientMQ<br><sub><sub>Parte de · <a href="https://github.com/didactika">Didactika</a></sub></sub></h1>
+<h1 align="center">ResilientMQ<br><a href="https://github.com/didactika"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/resilientmq/.github/main/profile/assets/parent-es-dark.svg"><img alt="Parte de · Didactika" src="https://raw.githubusercontent.com/resilientmq/.github/main/profile/assets/parent-es-light.svg" height="12"></picture></a></h1>
 
 <p align="center"><strong>Procesamiento fiable de eventos para RabbitMQ</strong></p>
 
