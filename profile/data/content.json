@@ -99,6 +99,7 @@
   "groups": [
     {
       "id": "npm",
+      "projectTypes": ["npm-package"],
       "label": { "en": "Runtime packages", "es": "Paquetes de ejecución" },
       "blurb": {
         "en": "The messaging engine and storage integrations published on npm.",
