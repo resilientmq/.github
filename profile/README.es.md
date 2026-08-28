@@ -36,7 +36,7 @@ Mantiene las políticas de reintento, el enrutamiento a dead-letter, la idempote
 <td width="100%" valign="top" align="center">
 <h3><a href="https://github.com/resilientmq/.github/blob/main/profile/projects/npm.es.md">Paquetes de ejecución</a></h3>
 <p><sub>El motor de mensajería y sus integraciones de persistencia publicadas en npm.</sub></p>
-<p><sub><b>3</b> publicados</sub></p>
+<p><sub><b>2</b> publicados</sub></p>
 <p><a href="https://github.com/resilientmq/.github/blob/main/profile/projects/npm.es.md"><b>Ver todos →</b></a></p>
 </td>
 </tr>

@@ -36,7 +36,7 @@ It keeps retry policy, dead-letter routing, idempotency and event lifecycle stat
 <td width="100%" valign="top" align="center">
 <h3><a href="https://github.com/resilientmq/.github/blob/main/profile/projects/npm.md">Runtime packages</a></h3>
 <p><sub>The messaging engine and storage integrations published on npm.</sub></p>
-<p><sub><b>3</b> published</sub></p>
+<p><sub><b>2</b> published</sub></p>
 <p><a href="https://github.com/resilientmq/.github/blob/main/profile/projects/npm.md"><b>Browse →</b></a></p>
 </td>
 </tr>
