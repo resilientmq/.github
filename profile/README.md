@@ -36,7 +36,7 @@ It keeps retry policy, dead-letter routing, idempotency and event lifecycle stat
 <td width="100%" valign="top" align="center">
 <h3><a href="https://github.com/resilientmq/.github/blob/main/profile/projects/npm.md">Runtime packages</a></h3>
 <p><sub>The messaging engine and storage integrations published on npm.</sub></p>
-<p><sub><b>2</b> published</sub></p>
+<p><sub><b>3</b> published</sub></p>
 <p><a href="https://github.com/resilientmq/.github/blob/main/profile/projects/npm.md"><b>Browse →</b></a></p>
 </td>
 </tr>
@@ -73,7 +73,7 @@ It keeps retry policy, dead-letter routing, idempotency and event lifecycle stat
 
 ## Contributors
 
-<p><a href="https://github.com/hector-ae21" title="hector-ae21 · 142 commits"><img src="https://avatars.githubusercontent.com/u/87265357?v=4&s=96" width="64" height="64" alt="hector-ae21"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/alex-borja" title="alex-borja · 2 commits"><img src="https://avatars.githubusercontent.com/u/144816513?v=4&s=96" width="64" height="64" alt="alex-borja"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/E2RD0" title="E2RD0 · 2 commits"><img src="https://avatars.githubusercontent.com/u/20119863?v=4&s=96" width="64" height="64" alt="E2RD0"></a></p>
+<p><a href="https://github.com/hector-ae21" title="hector-ae21 · 147 commits"><img src="https://avatars.githubusercontent.com/u/87265357?v=4&s=96" width="64" height="64" alt="hector-ae21"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/alex-borja" title="alex-borja · 2 commits"><img src="https://avatars.githubusercontent.com/u/144816513?v=4&s=96" width="64" height="64" alt="alex-borja"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/E2RD0" title="E2RD0 · 2 commits"><img src="https://avatars.githubusercontent.com/u/20119863?v=4&s=96" width="64" height="64" alt="E2RD0"></a></p>
 
 ## Contributing
 
