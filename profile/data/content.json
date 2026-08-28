@@ -123,6 +123,7 @@
       "id": "npm",
       "enabled": true,
       "projectTypes": ["npm-package"],
+      "discover": { "npm": true },
       "label": { "en": "Runtime packages", "es": "Paquetes de ejecución" },
       "blurb": {
         "en": "The messaging engine and storage integrations published on npm.",
@@ -150,6 +151,16 @@
       "desc": {
         "en": "MongoDB-backed persistence through Mongoose, with event state tracking, serializer support and a shared connection lifecycle.",
         "es": "Persistencia en MongoDB mediante Mongoose, con seguimiento del estado de eventos, serializadores y un ciclo de vida de conexión compartido."
+      }
+    },
+    {
+      "repo": "prisma-connector",
+      "group": "npm",
+      "name": "@resilientmq/prisma-connector",
+      "npm": "@resilientmq/prisma-connector",
+      "desc": {
+        "en": "Prisma persistence for ResilientMQ with provider-aware schemas, atomic inbox leases, distributed outbox claims and optional metrics storage.",
+        "es": "Persistencia Prisma para ResilientMQ con esquemas adaptados al proveedor, leases atómicos de inbox, claims distribuidos de outbox y almacenamiento opcional de métricas."
       }
     }
   ]

@@ -36,7 +36,7 @@ Mantiene las políticas de reintento, el enrutamiento a dead-letter, la idempote
 <td width="100%" valign="top" align="center">
 <h3><a href="https://github.com/resilientmq/.github/blob/main/profile/projects/npm.es.md">Paquetes de ejecución</a></h3>
 <p><sub>El motor de mensajería y sus integraciones de persistencia publicadas en npm.</sub></p>
-<p><sub><b>2</b> publicados</sub></p>
+<p><sub><b>3</b> publicados</sub></p>
 <p><a href="https://github.com/resilientmq/.github/blob/main/profile/projects/npm.es.md"><b>Ver todos →</b></a></p>
 </td>
 </tr>
@@ -73,7 +73,7 @@ Mantiene las políticas de reintento, el enrutamiento a dead-letter, la idempote
 
 ## Colaboradores
 
-<p><a href="https://github.com/hector-ae21" title="hector-ae21 · 142 commits"><img src="https://avatars.githubusercontent.com/u/87265357?v=4&s=96" width="64" height="64" alt="hector-ae21"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/alex-borja" title="alex-borja · 2 commits"><img src="https://avatars.githubusercontent.com/u/144816513?v=4&s=96" width="64" height="64" alt="alex-borja"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/E2RD0" title="E2RD0 · 2 commits"><img src="https://avatars.githubusercontent.com/u/20119863?v=4&s=96" width="64" height="64" alt="E2RD0"></a></p>
+<p><a href="https://github.com/hector-ae21" title="hector-ae21 · 147 commits"><img src="https://avatars.githubusercontent.com/u/87265357?v=4&s=96" width="64" height="64" alt="hector-ae21"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/alex-borja" title="alex-borja · 2 commits"><img src="https://avatars.githubusercontent.com/u/144816513?v=4&s=96" width="64" height="64" alt="alex-borja"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/E2RD0" title="E2RD0 · 2 commits"><img src="https://avatars.githubusercontent.com/u/20119863?v=4&s=96" width="64" height="64" alt="E2RD0"></a></p>
 
 ## Cómo contribuir
 
